@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: test-server
-          image: aks01cmv.azurecr.io/spring-demo-1:latest
+          image: springdemocmv.azurecr.io/spring-demo-1:latest
           imagePullPolicy: "Always"
           ports:
             - name: http-port
